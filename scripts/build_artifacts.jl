@@ -39,11 +39,16 @@ mktempdir() do tmpdir
             run(`tar -xzf $archive_path -C $extract_dir`)
         end
 
+        # Ensure execute bit is set — unzip on Linux strips it from Windows binaries
+        println("  Make executable..")
+        micro_dir = joinpath(extract_dir, "$MICRO-$MICRO_VERSION")
+        run(`chmod -R 755 $micro_dir`)
+
         println("  Publishing ...")
-        artifact_id = artifact_from_directory(tmpdir)
-        release = upload_to_release(artifact_id)
+        artifact_id = artifact_from_directory(micro_dir)
+        release = upload_to_release(artifact_id; tag=MICRO_VERSION)
 
         println("  Add artifact ...")
-        add_artifact!(ARTIFACTS_TOML, MICRO, release)
+        add_artifact!(ARTIFACTS_TOML, MICRO, release; platform=platform, force=true)
     end
 end

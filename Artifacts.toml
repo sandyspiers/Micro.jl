@@ -1,0 +1,50 @@
+[[micro]]
+arch = "x86_64"
+git-tree-sha1 = "82d84d59966398af5d61c20f2691afb5a8578309"
+libc = "glibc"
+os = "linux"
+
+    [[micro.download]]
+    sha256 = "928eec3348a1a5cf1d7e4f463705ebb782c97e742d7e4b63058b927a3330249d"
+    url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/82d84d59966398af5d61c20f2691afb5a8578309.tar.gz"
+[[micro]]
+arch = "aarch64"
+git-tree-sha1 = "d4138ca98d0b72cc33d15840c86d5b41d5bdeb0a"
+libc = "glibc"
+os = "linux"
+
+    [[micro.download]]
+    sha256 = "1f73158760efc5ac87ba39b8c7cb60ddf3dcb0c57387c6ad82ffb35f1645e3ec"
+    url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/d4138ca98d0b72cc33d15840c86d5b41d5bdeb0a.tar.gz"
+[[micro]]
+arch = "x86_64"
+git-tree-sha1 = "abe6545125e1a29b1f43ae17a8e787839fd79729"
+os = "macos"
+
+    [[micro.download]]
+    sha256 = "e8122de779392404f2c505532f2d90ab492c59400fd32ce3f2f19a361f81efd5"
+    url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/abe6545125e1a29b1f43ae17a8e787839fd79729.tar.gz"
+[[micro]]
+arch = "aarch64"
+git-tree-sha1 = "abf06e3d2fbedde175fbf47208fc4c1300254249"
+os = "macos"
+
+    [[micro.download]]
+    sha256 = "0c7d8f378c02ee0aef1822619cf4aa7885b2571d562853217246e3ae248769fc"
+    url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/abf06e3d2fbedde175fbf47208fc4c1300254249.tar.gz"
+[[micro]]
+arch = "x86_64"
+git-tree-sha1 = "38d93392562fe48b5a66c96273fe6d7213c5311e"
+os = "windows"
+
+    [[micro.download]]
+    sha256 = "39f91d00258b514a8b36622ff493ec77b08e07a6f114a117c7417a2fd4671f05"
+    url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/38d93392562fe48b5a66c96273fe6d7213c5311e.tar.gz"
+[[micro]]
+arch = "aarch64"
+git-tree-sha1 = "203ffac7f8ac748b4d31fcbd17373b6ad14ec333"
+os = "windows"
+
+    [[micro.download]]
+    sha256 = "4d21ecc6a0c585b1408141c587578a9d6510b81c4f4615bb86242d17358e0e72"
+    url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/203ffac7f8ac748b4d31fcbd17373b6ad14ec333.tar.gz"

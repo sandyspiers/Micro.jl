@@ -1,0 +1,13 @@
+name = "Micro"
+uuid = "769baa7f-3754-4eeb-833c-d9bcec3975de"
+version = "0.1.0"
+authors = ["sandyspiers <sandy.spiers@gmail.com>"]
+
+[micro]
+version = "2.0.15"
+
+[deps]
+ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
+
+[compat]
+ArtifactUtils = "0.2.5"

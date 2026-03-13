@@ -1,18 +1,21 @@
 # Downloads artifacts publishes them as a github release
 using ArtifactUtils
 using Base.BinaryPlatforms
+using Pkg
 using TOML
 
-PROJECT_DIR = joinpath(@__DIR__, "..")
-PROJECT_TOML = joinpath(PROJECT_DIR, "Project.toml")
-ARTIFACTS_TOML = joinpath(PROJECT_DIR, "Artifacts.toml")
-PROJECT_DICT = TOML.parsefile(PROJECT_TOML)
+Pkg.instantiate()
 
-MICRO = "micro"
-MICRO_VERSION = PROJECT_DICT["micro"]["version"]
-UPSTREAM_URL = "https://github.com/micro-editor/micro/releases/download/v$MICRO_VERSION"
+const PROJECT_DIR = joinpath(@__DIR__, "..")
+const PROJECT_TOML = joinpath(PROJECT_DIR, "Project.toml")
+const ARTIFACTS_TOML = joinpath(PROJECT_DIR, "Artifacts.toml")
+const PROJECT_DICT = TOML.parsefile(PROJECT_TOML)
 
-PLATFORMS = [
+const MICRO = "micro"
+const MICRO_VERSION = PROJECT_DICT["micro"]["version"]
+const UPSTREAM_URL = "https://github.com/micro-editor/micro/releases/download/v$MICRO_VERSION"
+
+const PLATFORMS = [
     ("micro-$MICRO_VERSION-linux64", ".tar.gz", Platform("x86_64", "linux")),
     ("micro-$MICRO_VERSION-linux-arm64", ".tar.gz", Platform("aarch64", "linux")),
     ("micro-$MICRO_VERSION-osx", ".tar.gz", Platform("x86_64", "macos")),

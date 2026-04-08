@@ -5,7 +5,7 @@ libc = "glibc"
 os = "linux"
 
     [[micro.download]]
-    sha256 = "928eec3348a1a5cf1d7e4f463705ebb782c97e742d7e4b63058b927a3330249d"
+    sha256 = "e269b0fab4164b9ebc01fc3db3a267884a406c88b186e145218a6e7f7c01d11d"
     url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/82d84d59966398af5d61c20f2691afb5a8578309.tar.gz"
 [[micro]]
 arch = "aarch64"
@@ -14,7 +14,7 @@ libc = "glibc"
 os = "linux"
 
     [[micro.download]]
-    sha256 = "1f73158760efc5ac87ba39b8c7cb60ddf3dcb0c57387c6ad82ffb35f1645e3ec"
+    sha256 = "5da860df3493f2228f57e2720f2e6f347e0601c35c7d4f6b95350cc2a6e4911e"
     url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/d4138ca98d0b72cc33d15840c86d5b41d5bdeb0a.tar.gz"
 [[micro]]
 arch = "x86_64"
@@ -22,7 +22,7 @@ git-tree-sha1 = "abe6545125e1a29b1f43ae17a8e787839fd79729"
 os = "macos"
 
     [[micro.download]]
-    sha256 = "e8122de779392404f2c505532f2d90ab492c59400fd32ce3f2f19a361f81efd5"
+    sha256 = "e03255814d27f6af8f996961bbcaa1ae20583b79b2ab24608a972a85e9d7ed1c"
     url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/abe6545125e1a29b1f43ae17a8e787839fd79729.tar.gz"
 [[micro]]
 arch = "aarch64"
@@ -30,7 +30,7 @@ git-tree-sha1 = "abf06e3d2fbedde175fbf47208fc4c1300254249"
 os = "macos"
 
     [[micro.download]]
-    sha256 = "0c7d8f378c02ee0aef1822619cf4aa7885b2571d562853217246e3ae248769fc"
+    sha256 = "ab7016297bb326533cbb466d07a8a8ecba050969736bbc2b6fbcdd34fcd1aabc"
     url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/abf06e3d2fbedde175fbf47208fc4c1300254249.tar.gz"
 [[micro]]
 arch = "x86_64"
@@ -38,7 +38,7 @@ git-tree-sha1 = "38d93392562fe48b5a66c96273fe6d7213c5311e"
 os = "windows"
 
     [[micro.download]]
-    sha256 = "39f91d00258b514a8b36622ff493ec77b08e07a6f114a117c7417a2fd4671f05"
+    sha256 = "6c8b4c635dc450e667d34fdf41fca9e767a15cb94b2115c2998c29dc67d9c81a"
     url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/38d93392562fe48b5a66c96273fe6d7213c5311e.tar.gz"
 [[micro]]
 arch = "aarch64"
@@ -46,5 +46,5 @@ git-tree-sha1 = "203ffac7f8ac748b4d31fcbd17373b6ad14ec333"
 os = "windows"
 
     [[micro.download]]
-    sha256 = "4d21ecc6a0c585b1408141c587578a9d6510b81c4f4615bb86242d17358e0e72"
+    sha256 = "c6ca9c46039e3b6f1a196a2105c4d4dc906cbb5002789c467c4277439c00a38e"
     url = "https://github.com/sandyspiers/Micro.jl/releases/download/2.0.15/203ffac7f8ac748b4d31fcbd17373b6ad14ec333.tar.gz"
